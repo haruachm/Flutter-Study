@@ -1,12 +1,8 @@
-# flutter_application_arrange
-
-
-
 # 💫나의 Flutter 학습 공간💫
 
 ---
-
-## **decoration: BoxDecoration | Error**
+</br></br></br>
+### **decoration: BoxDecoration | Error**
 
 
 - `decoration: BoxDecoration`을 사용할 때, Container에 색을 입히고 싶어 color을 밖에 사용하였는데, `_AssertionError` 가 발생했다.
