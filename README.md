@@ -1,7 +1,7 @@
 # 💫나의 Flutter 학습 공간💫
 
 ---
-</br></br></br>
+</br>
 ### **decoration: BoxDecoration | Error**
 
 
@@ -35,3 +35,11 @@ Container(
                     )),
                 ),
 ```
+
+
+## **Manage screen files by separating them**
+
+1. lib > screen 폴더 생성 > 화면의 기능 이름으로 파일 생성
+2. main.dart에서 분리할 코드 잘라서 생성한 파일에 붙여넣기
+3. 새로 생성한 파일에 import 'package:flutter/material.dart'; 추가하기
+4. main.dart 파일에 새로 생성한 파일 import 해주기
