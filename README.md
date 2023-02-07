@@ -46,3 +46,6 @@ Container(
 2. main.dart에서 분리할 코드 잘라서 생성한 파일에 붙여넣기
 3. 새로 생성한 파일에 import 'package:flutter/material.dart'; 추가하기
 4. main.dart 파일에 새로 생성한 파일 import 해주기
+
+</br>
+- `width: MediaQuery.of(context).size.width,` : 휴대폰의 사이즈를 가지고 올 수 있다.
