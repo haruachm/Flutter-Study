@@ -12,28 +12,90 @@ class HomeScreen extends StatelessWidget {
           width: MediaQuery.of(context).size.width,
           color: Colors.black,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Container(
-                color: Colors.red,
-                width: 50,
-                height: 50,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Container(
+                      width: 50,
+                      height: 50,
+                      color: Colors.red,
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 50,
+                      height: 50,
+                      color: Colors.blue,
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 50,
+                      height: 50,
+                      color: Colors.amber,
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 50,
+                      height: 50,
+                      color: Colors.green,
+                    ),
+                  ),
+                ],
               ),
-              Container(
-                color: Colors.blue,
-                width: 50,
-                height: 50,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.white,
+                  ),
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.white,
+                  ),
+                ],
               ),
-              Container(
-                color: Colors.green,
-                width: 50,
-                height: 50,
+              Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.red,
+                  ),
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.amber,
+                  ),
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.green,
+                  ),
+                ],
               ),
-              Container(
-                color: Colors.purple,
-                width: 50,
-                height: 50,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.purple,
+                  ),
+                ],
               ),
             ],
           ),
