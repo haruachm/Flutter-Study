@@ -48,4 +48,4 @@ Container(
 4. main.dart 파일에 새로 생성한 파일 import 해주기
 
 </br>
-`width: MediaQuery.of(context).size.width,` : 휴대폰의 사이즈를 가지고 올 수 있다.
+- `width: MediaQuery.of(context).size.width,` : 휴대폰의 사이즈를 가지고 올 수 있다.
