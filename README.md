@@ -49,3 +49,40 @@ Container(
 
 </br>
 - `width: MediaQuery.of(context).size.width,` : 휴대폰의 사이즈를 가지고 올 수 있다.
+
+</br>
+
+### **앱바(Appbar) 아이콘 버튼 만들기 - IconButton()**
+
+**아이콘 배치**
+
+- **leading** : 아이콘 버튼이나 간단한 위젯을 왼쪽에 배치할 때 사용
+- **actions** : 복수의 아이콘 버튼 등을 오른족에 배치할 때 사용
+- **onPressed** : 아이콘 버튼을 클릭했을 때 함수의 형태로 일어날 이벤트 정의
+
+![https://blog.kakaocdn.net/dn/lMhRw/btrZqUMUjPM/bR3DLtM2OmTdhF4Yz2IMf1/img.png](https://blog.kakaocdn.net/dn/lMhRw/btrZqUMUjPM/bR3DLtM2OmTdhF4Yz2IMf1/img.png)
+
+```
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('앱바 만들기'),
+        centerTitle: true,
+        elevation: 0.0,
+        leading: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.menu),
+        ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.search),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.person),
+          )
+        ],
+      ),
+    );
+```
+
