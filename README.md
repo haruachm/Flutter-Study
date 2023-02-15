@@ -51,6 +51,9 @@ Container(
 - `width: MediaQuery.of(context).size.width,` : 휴대폰의 사이즈를 가지고 올 수 있다.
 
 </br>
+</br>
+
+---
 
 ### **앱바(Appbar) 아이콘 버튼 만들기 - IconButton()**
 
@@ -62,7 +65,7 @@ Container(
 
 ![https://blog.kakaocdn.net/dn/lMhRw/btrZqUMUjPM/bR3DLtM2OmTdhF4Yz2IMf1/img.png](https://blog.kakaocdn.net/dn/lMhRw/btrZqUMUjPM/bR3DLtM2OmTdhF4Yz2IMf1/img.png)
 
-```
+```dart
     return Scaffold(
       appBar: AppBar(
         title: Text('앱바 만들기'),
