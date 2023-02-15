@@ -6,100 +6,24 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        bottom: false,
-        child: Container(
-          width: MediaQuery.of(context).size.width,
-          color: Colors.black,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Expanded(
-                    child: Container(
-                      width: 50,
-                      height: 50,
-                      color: Colors.red,
-                    ),
-                  ),
-                  Expanded(
-                    child: Container(
-                      width: 50,
-                      height: 50,
-                      color: Colors.blue,
-                    ),
-                  ),
-                  Expanded(
-                    child: Container(
-                      width: 50,
-                      height: 50,
-                      color: Colors.amber,
-                    ),
-                  ),
-                  Expanded(
-                    child: Container(
-                      width: 50,
-                      height: 50,
-                      color: Colors.green,
-                    ),
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.white,
-                  ),
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.white,
-                  ),
-                ],
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.red,
-                  ),
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.blue,
-                  ),
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.amber,
-                  ),
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.green,
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.purple,
-                  ),
-                ],
-              ),
-            ],
-          ),
+      appBar: AppBar(
+        title: Text('앱바 만들기'),
+        centerTitle: true,
+        elevation: 0.0,
+        leading: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.menu),
         ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.search),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.person),
+          )
+        ],
       ),
     );
   }
